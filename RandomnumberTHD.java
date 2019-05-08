@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package randomnumberthd;
+
+//package senjaungubiru;
 
 /**
  *
  * @author senjaungubiru
  */
 import java.util.Scanner;
-public class RandomnumberTHD {
+public class senjaungubiru {
 
     /**
      * @param args the command line arguments
@@ -32,6 +33,7 @@ public class RandomnumberTHD {
             x[i]=(a*x[i-1]+c)%m;
             r[i] = x[i]/m;
             
+            //Range dadunya
             // 1/6 = 0.1666666666666667
             // 2/6 = 0.3333333333333333
             // 3/6 = 0.5
